@@ -19,6 +19,7 @@ public class Mock {
 			assert o.toString().equals("Anna,17");
 			results.put("C1", 1);
 		} catch (Throwable e) {
+			System.err.println("Assertion error in C1: " + e.getMessage());
 			results.put("C1", 0);
 		}
 
@@ -34,6 +35,7 @@ public class Mock {
 			assert o.value()==4;
 			results.put("C2", 1);
 		} catch (Throwable e) {
+			System.err.println("Assertion error in C2: " + e.getMessage());
 			results.put("C2", 0);
 		}
 
@@ -45,6 +47,7 @@ public class Mock {
 			assert C3.hideText("ok").equals("ok");
 			results.put("C3", 1);
 		} catch (Throwable e) {
+			System.err.println("Assertion error in C3: " + e.getMessage());
 			results.put("C3", 0);
 		}
 
@@ -56,6 +59,7 @@ public class Mock {
 			assert C4.positiveOdd(arr2)==2;  
 			results.put("C4", 1);
 		} catch (Throwable e) {
+			System.err.println("Assertion error in C4: " + e.getMessage());
 			results.put("C4", 0);
 		}
 
@@ -67,6 +71,7 @@ public class Mock {
 			assert o.toString().equals("P(3,0)");
 			results.put("C5", 1);
 		} catch (Throwable e) {
+			System.err.println("Assertion error in C5: " + e.getMessage());
 			results.put("C5", 0);
 		}
 
@@ -80,6 +85,7 @@ public class Mock {
 			assert o.getTitle().equals("Some book");
 			results.put("C6", 1);
 		} catch (Throwable e) {
+			System.err.println("Assertion error in C6: " + e.getMessage());
 			results.put("C6", 0);
 		}
 

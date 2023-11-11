@@ -11,15 +11,15 @@ public class C3 {
 
     static String hideText(String t) {
         if (t.length() > 2) {
-            return (t.substring(0, 1) + "*".repeat(t.length() - 1) + t.substring(t.length() - 1));
+            return (t.substring(0, 1) + "*".repeat(t.length() - 2) + t.substring(t.length() - 1));
         }
         return t;
     }
 
-    // public static void main(String[] args) {
-    // System.out.println(C3.isAlphabet("abcdeaf"));
-    // System.out.println(C3.hideText("ok"));
-    // System.out.println(C3.hideText("test"));
-    // System.out.println(C3.hideText("John Cena"));
-    // }
+    public static void main(String[] args) {
+        System.out.println(C3.isAlphabet("abcdeaf"));
+        System.out.println(C3.hideText("ok"));
+        System.out.println(C3.hideText("test"));
+        System.out.println(C3.hideText("John Cena"));
+    }
 }
