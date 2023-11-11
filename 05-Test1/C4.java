@@ -4,8 +4,7 @@ public class C4 {
         for (int i : array) {
             if (i % 2 == 0) {
                 count++;
-            }
-            ;
+            };
         }
         return count;
     }
@@ -13,10 +12,9 @@ public class C4 {
     static int positiveOdd(int[] array) {
         int count = 0;
         for (int i : array) {
-            if (i % 2 == 0 && i > 0) {
+            if (i % 2 != 0 && i > 0) {
                 count++;
-            }
-            ;
+            };
         }
         return count;
     }
