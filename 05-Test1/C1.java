@@ -29,7 +29,6 @@ public class C1 {
 
     @Override
     public String toString() {
-        return name+","+age;
+        return name + "," + age;
     }
-
 }

@@ -16,7 +16,7 @@ public class C5 {
 
     @Override
     public String toString() {
-        return (String.format("P(%d,%d)", this.x, this.y));
+        return String.format("P(%d,%d)", this.x, this.y);
     }
 
     // public static void main(String[] args) {

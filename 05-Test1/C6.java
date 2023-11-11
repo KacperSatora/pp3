@@ -21,10 +21,10 @@ public class C6 {
     }
 
     // public static void main(String[] args) {
-    //     C6 o = new C6();
+    // C6 o = new C6();
 
-    //     o.setPages(3);
-    //     o.setPages(-4);
-    //     System.out.println(o.getPages());
+    // o.setPages(3);
+    // o.setPages(-4);
+    // System.out.println(o.getPages());
     // }
 }

@@ -20,5 +20,4 @@ public class C2 {
     public int value() {
         return this.counter;
     }
-
 }
