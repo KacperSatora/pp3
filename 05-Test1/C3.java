@@ -10,7 +10,7 @@ public class C3 {
     }
 
     static String hideText(String t) {
-        return (t.substring(0) + "*".repeat(t.length() - 2) + t.substring(t.length() - 1));
+        return (t.substring(0, 1) + "*".repeat(t.length() - 2) + t.substring(t.length() - 1));
     }
 
     // public static void main(String[] args) {
