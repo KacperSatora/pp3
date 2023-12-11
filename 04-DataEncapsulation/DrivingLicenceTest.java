@@ -8,5 +8,6 @@ public class DrivingLicenceTest {
         dl.setName("jOHN");
         dl.display();
         dl.toString();
+        scanner.close();
     }
 }
